@@ -58,7 +58,7 @@ exports.postVote = (req, res) => {
       const _winner = ranking.makePlayer(winnerInt.rating, winnerInt.rd, winnerInt.vol);
       const _loser = ranking.makePlayer(loserInt.rating, loserInt.rd, loserInt.vol);
       var matches = [];
-      matches.push([_winner, _loser, 1]); //Ryan won over Bob
+      matches.push([_winner, _loser, 1]);
       ranking.updateRatings(matches);
       winnerInt.rating = _winner.getRating();
       winnerInt.rd = _winner.getRd();
