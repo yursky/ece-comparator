@@ -17,9 +17,9 @@ block content
           form.form-horizontal(action='/api/vote', method='POST')
             input(type='hidden', name='_csrf', value=_csrf)
             .form-group
-              input(type='hidden', name='winner', id='winner', value='' + class1)
+              input(type='hidden', name='winner', id='winner', value='' + class1.code)
             .form-group
-              input(type='hidden', name='loser', id='loser', value='' + class2)
+              input(type='hidden', name='loser', id='loser', value='' + class2.code)
             .form-group
               h2 #{class1.code} - #{class1.name}
               p #{class1.description}
