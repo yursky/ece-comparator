@@ -8,6 +8,7 @@ block content
         th #
         th Code
         th Name
+        th Deviation
         th Rating
     tbody
       each _class, index in classes
@@ -15,6 +16,7 @@ block content
           th= index
           td= _class.code
           td= _class.name
-          td= _class.rating
+          td= "+/- " + Math.round(_class.rd)
+          td= Math.round(_class.rating)
     
   
