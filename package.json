@@ -1,6 +1,6 @@
 {
   "name": "ece-comparator",
-  "version": "5.0.0",
+  "version": "1.0.0",
   "description": "Figure out what is the hardest course in ECE.",
   "repository": {
     "type": "git",

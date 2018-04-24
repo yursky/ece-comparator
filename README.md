@@ -8,7 +8,13 @@
 
 <br>
 
-Comparator is a system I built in order to help decide which class is the hardest in the ECE curriculum at UT. This is a system that works using pairwise comparisons and ELO. In the background every vote affects the overall ELO of the course using the Glicko2 algorithm. With every vote, we become a little more sure of the subjective difficulty of these courses.
+Comparator is a system I built in order to help decide which class is the hardest in the ECE curriculum at UT. This is a system that works using pairwise comparisons and ELO. You can read more about it [here](http://www.glicko.net/glicko/glicko2.pdf). In the background every vote affects the overall ELO of the course using the Glicko2 algorithm. With every vote, we become a little more sure of the subjective difficulty of these courses.
+
+[ELO](https://en.wikipedia.org/wiki/Elo_rating_system) is a method for calculating the relative skill levels of players in zero-sum games.
+
+An ELO system is better than a simple rating since individual's scales can drastically differ...
+
+<img src="./public/pain_rating.png" align="center"/>
 
 <br>
 
