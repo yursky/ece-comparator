@@ -40,7 +40,7 @@ exports.postVote = (req, res) => {
   var settings = {
     // tau : "Reasonable choices are between 0.3 and 1.2, though the system should
     //      be tested to decide which value results in greatest predictive accuracy."
-    tau : 0.5,
+    tau : 0.8,
     // rating : default rating
     rating : 1500,
     //rd : Default rating deviation
