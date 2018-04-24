@@ -13,28 +13,28 @@ block content
       h3 Select the class that is more likely to be difficult:
       p.lead If you can't compare the two classes for whatever reason just refresh the page it will spit out 2 new ones.
       .col-sm-6
-        form.form-horizontal(action='/api/vote', method='POST')
-          input(type='hidden', name='_csrf', value=_csrf)
-          .form-group
-            input(type='hidden', name='winner', id='winner', value='' + class1)
-          .form-group
-            input(type='hidden', name='loser', id='loser', value='' + class2)
-          .form-group
-            h2 
-              i.fas.fa-angle-right
-              | #{class1}
-            button.btn.btn-default(type='submit')
-                | This class is harder. 
+        .vote-container
+          form.form-horizontal(action='/api/vote', method='POST')
+            input(type='hidden', name='_csrf', value=_csrf)
+            .form-group
+              input(type='hidden', name='winner', id='winner', value='' + class1)
+            .form-group
+              input(type='hidden', name='loser', id='loser', value='' + class2)
+            .form-group
+              h2 #{class1.code} - #{class1.name}
+              p #{class1.description}
+              button.btn.btn-default(type='submit')
+                  | This class is harder. 
       .col-sm-6
-        form.form-horizontal(action='/api/vote', method='POST')
-          input(type='hidden', name='_csrf', value=_csrf)
-          .form-group
-            input(type='hidden', name='winner', id='winner', value='' + class2)
-          .form-group
-            input(type='hidden', name='loser', id='loser', value='' + class1)
-          .form-group
-            h2 
-              i.fas.fa-angle-right
-              | #{class2}
-            button.btn.btn-default(type='submit')
-                | Naw this class is harder. 
+        .vote-container
+          form.form-horizontal(action='/api/vote', method='POST')
+            input(type='hidden', name='_csrf', value=_csrf)
+            .form-group
+              input(type='hidden', name='winner', id='winner', value='' + class2.code)
+            .form-group
+              input(type='hidden', name='loser', id='loser', value='' + class1.code)
+            .form-group
+              h2 #{class2.code} - #{class2.name}
+              p #{class2.description}
+              button.btn.btn-default(type='submit')
+                  | Naw this class is harder. 

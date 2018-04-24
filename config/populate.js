@@ -9,6 +9,8 @@ Class.findOne({}).exec((err, _class) => {
         if (classes.hasOwnProperty(_class)) {
           const newClass = new Class();
           newClass.code = _class;
+          newClass.name = classes[_class].name;
+          newClass.description = classes[_class].description;
           newClass.rating = classes[_class].rating;
           newClass.rd = classes[_class].rd;
           newClass.vol = classes[_class].vol;

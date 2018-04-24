@@ -11,8 +11,8 @@ exports.index = (req, res) => {
     const class2 = classes[Math.floor(Math.random()*classes.length)];
     res.render('home', {
       title: 'Home',
-      class1: class1.code,
-      class2: class2.code,
+      class1: class1,
+      class2: class2,
     });
   });
 };
