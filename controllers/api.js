@@ -68,8 +68,8 @@ exports.postVote = (req, res) => {
       loserInt.rd = _loser.getRd();
       loserInt.vol = _loser.getVol();
       loserInt.save();
+      req.flash('success', { msg: `Vote recorded for ${winner} > ${loser}.` });
+      res.redirect('/');
     });
   });
-  req.flash('success', { msg: `Vote recorded for ${winner} > ${loser}.` });
-  res.redirect('/');
 };
