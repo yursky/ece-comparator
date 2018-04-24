@@ -1,0 +1,42 @@
+{
+  "name": "ece-comparator",
+  "version": "5.0.0",
+  "description": "Figure out what is the hardest course in ECE.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yursky/ece-comparator.git"
+  },
+  "author": "Yuriy Minin",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npm rebuild node-sass",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.2.6",
+    "body-parser": "^1.18.2",
+    "chalk": "^2.3.2",
+    "compression": "^1.7.2",
+    "connect-mongo": "^2.0.1",
+    "dotenv": "^5.0.1",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.1.0",
+    "glicko2": "^0.8.4",
+    "lusca": "^1.5.2",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0",
+    "node-sass": "^4.8.3",
+    "node-sass-middleware": "^0.11.0",
+    "nodemailer": "^4.6.4",
+    "pug": "^2.0.3",
+    "request": "^2.85.0",
+    "validator": "^9.4.1"
+  },
+  "engines": {
+    "node": ">=8.11.1",
+    "npm": ">=5.6.0"
+  }
+}
