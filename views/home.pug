@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  h2 Help us try and figure out just how hard ECE courses are at UT Austin.
+  h2 Help us try and figure out just how hard ECE courses are at UT Austin 🤘
   br
   p.lead This is a system that works using pairwise comparisons and ELO. In the background every vote affects the overall ELO of the course using the Glicko2 algorithm. You can read more about it 
     a(href='http://www.glicko.net/glicko/glicko2.pdf') here. 
@@ -10,7 +10,7 @@ block content
   p.lead Once the variance in the ELO scores reduces to a satisfactory level, we will publish our results. 
   .container
     .row
-      h3 Select the class that is more likely to be difficult.
+      h3 Select the class that is more likely to be difficult:
       .col-sm-6
         form.form-horizontal(action='/api/vote', method='POST')
           input(type='hidden', name='_csrf', value=_csrf)
