@@ -11,6 +11,7 @@ block content
   .container
     .row
       h3 Select the class that is more likely to be difficult:
+      p.lead If you can't compare the two classes for whatever reason just refresh the page it will spit out 2 new ones.
       .col-sm-6
         form.form-horizontal(action='/api/vote', method='POST')
           input(type='hidden', name='_csrf', value=_csrf)
