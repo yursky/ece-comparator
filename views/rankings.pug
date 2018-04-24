@@ -1,7 +1,11 @@
 extends layout
 
 block content
-  h2 Current Classes Ranked in Order ⚡
+  .row
+    .col-sm-6
+      h2 Current Classes Ranked in Order ⚡
+    .col-sm-6
+      h3.text-right #{votes} comparisons made
   table.table.table-hover
     thead
       tr

@@ -1,4 +1,5 @@
 const Class = require('../models/Class');
+const Vote = require('../models/Vote');
 
 /**
  * GET /
@@ -22,20 +23,24 @@ exports.index = (req, res) => {
  * Rankings Page
  */
 exports.getRankings = (req, res) => {
-  Class.find({}, (err, classes) => {
+  Vote.find({}, (err, votes) => {
     if (err) { return res(err); }
-    function compare(a,b) {
-      if (a.rating < b.rating)
-        return 1;
-      if (a.rating > b.rating)
-        return -1;
-      return 0;
-    }
-
-    classes.sort(compare);
-    res.render('rankings', {
-      title: 'Rankings',
-      classes: classes
+    const numVotes = votes.length;
+    Class.find({}, (err, classes) => {
+      if (err) { return res(err); }
+      function compare(a,b) {
+        if (a.rating < b.rating)
+          return 1;
+        if (a.rating > b.rating)
+          return -1;
+        return 0;
+      }
+      classes.sort(compare);
+      res.render('rankings', {
+        title: 'Rankings',
+        classes: classes,
+        votes: numVotes
+      });
     });
-  });
+  })
 };
