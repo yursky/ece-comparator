@@ -89,6 +89,7 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
  * Primary app routes.
  */
 app.get('/', homeController.index);
+app.get('/rankings', homeController.getRankings);
 app.get('/api/classes', apiController.getClasses);
 app.get('/api/classes/:code', apiController.getClassByCode);
 app.post('/api/vote', apiController.postVote);

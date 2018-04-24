@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h2 Current Classes Ranked in Order ⚡
+  table.table
+    thead
+      tr
+        th #
+        th Code
+        th Name
+        th Rating
+    tbody
+      each _class, index in classes
+        tr
+          th= index
+          td= _class.code
+          td= _class.name
+          td= _class.rating
+    
+  

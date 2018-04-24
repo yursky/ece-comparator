@@ -16,3 +16,26 @@ exports.index = (req, res) => {
     });
   });
 };
+
+/**
+ * GET /rankings
+ * Rankings Page
+ */
+exports.getRankings = (req, res) => {
+  Class.find({}, (err, classes) => {
+    if (err) { return res(err); }
+    function compare(a,b) {
+      if (a.rating < b.rating)
+        return 1;
+      if (a.rating > b.rating)
+        return -1;
+      return 0;
+    }
+
+    classes.sort(compare);
+    res.render('rankings', {
+      title: 'Rankings',
+      classes: classes
+    });
+  });
+};

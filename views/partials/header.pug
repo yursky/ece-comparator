@@ -9,3 +9,7 @@
       a.navbar-brand(href='/')
         i.fas.fa-balance-scale
         | Comparator
+    .collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li(class=(title === 'Rankings') ? 'active' : undefined)
+          a(href='/rankings') Rankings
