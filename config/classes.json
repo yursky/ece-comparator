@@ -4,398 +4,398 @@
         "description": "Design of microcontroller-based embedded systems; interfacing from both a hardware and software perspective; and applications, including audio, data acquisition, and communication systems.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE460N": {
         "name": "Computer Architecture",
         "description": "Characteristics of instruction set architecture and microarchitecture; physical and virtual memory; caches and cache design; interrupts and exceptions; integer and floating-point arithmetic; I/O processing; buses; pipelining, out-of-order execution, branch prediction, and other performance enhancements; design trade-offs; case studies of commercial microprocessors. Laboratory work includes completing the behavioral-level design of a microarchitecture.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE445M": {
         "name": "Embedded and Real-Time Systems Laboratory",
         "description": "Embedded microcomputer systems; implementation of multitasking, synchronization, protection, and paging; operating systems for embedded microcomputers; design, optimization, evaluation, and simulation of digital and analog interfaces; real-time microcomputer software; applications, including data acquisition and control.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE461P": {
         "name": "Data Science Principles",
         "description": "Goals, methods, and applications of data mining.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE461L": {
         "name": "Software Engineering and Design Laboratory",
         "description": "The design and development of large-scale software systems using automated analysis tools. Generation of concrete software engineering artifacts at all stages of the software life-cycle. Design principles and methods; design and modeling tools; collaborative development environment; object-oriented design and analysis; design patterns and refactoring; integration and testing tools; debugger and bug finder; program comprehension; software life-cycle and evolution.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE422C": {
         "name": "Software Design and Implementation II",
         "description": "Methods for engineering software with a focus on abstraction; specification, design, implementation, and testing of object-oriented code using a modern development tool-set for complex systems; design and implementation of object-oriented programs in Java; abstract data types; inheritance; polymorphism; parameterized types and generic programming; the operation and application of commonly used data structures; exception handling and fault tolerance; introduction to algorithm analysis; teamwork models.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE464": {
         "name": "Senior Design II",
         "description": "The second half of senior design",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE445S": {
         "name": "Real-Time Digital Sig Proc Lab",
         "description": "Architectures of programmable digital signal processors; programming for real-time performance; design and implementation of digital filters, modulators, data scramblers, pulse shapers, and modems in real time; and interfaces to telecommunication systems.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE460M": {
         "name": "Digital Systems Design Using HDL",
         "description": "Organization, design, simulation, synthesis, and testing of digital systems; hardware description languages (HDLs); field programmable gate arrays (FPGAs); hardware implementation of arithmetic and other algorithmic processes; state machine charts; microprogramming; and microprocessor design.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE460J": {
         "name": "Data Science Laboratory",
         "description": "Predictive modeling, regression and classification, data cleaning and preprocessing, feature engineering, unsupervised methods, principal component analysis, data clustering, model selection and feature selection, entropy and information theory, neural networks, deep learning, machine learning for signals and time-series data.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE438": {
         "name": "Fundamentals Electronic Circuits",
         "description": "Analysis and design of electronic circuits using semiconductor devices. Basic device physics and small-signal modeling for diodes, bipolar junction transistors, and metal-oxide-semiconductor transistors; operation region and biasing; basic switching circuits; single-stage and multi-stage amplifier design and analysis; input and output impedance characteristics of amplifiers; frequency response; AC and DC coupling techniques; differential amplifiers and output stages.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE440": {
         "name": "Integrated Circuit Nanomanufacturing Techniques",
         "description": "Integrated circuit processing; crystal growth and wafer preparation; epitaxial growth; oxidation, diffusion, and ion implantation; thin-film deposition techniques; and lithography and etching.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE460R": {
         "name": "Introduction to VLSI Design",
         "description": "Theory and practice of very-large-scale integration (VLSI) circuit design.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE312": {
         "name": "Software Design and Implementation I",
         "description": "Basic problem solving, design and implementation techniques for imperative programming; structured programming in the C/C++ language; programming idioms; introduction to software design principles, including modularity, coupling and cohesion; introduction to software engineering tools; elementary data structures; asymptotic analysis.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE313": {
         "name": "Linear Systems and Signals",
         "description": "Representation of signals and systems; system properties; sampling; Laplace and z-transforms; transfer functions and frequency response; convolution; stability; Fourier transform; feedback; and control applications.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE411": {
         "name": "Circuit Theory",
         "description": "Capacitance and inductance; first- and second-order transient circuit response, including operational amplifier circuits; sinusoidal steady state analysis; Bode plots; complex power in single and balanced three-phase systems; transformers; two-port networks (Z-parameters and Y-parameters); and computer-aided analysis and design.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE338L": {
         "name": "Analog Integrated Circuit Design",
         "description": "Analysis and design of analog integrated circuits; transistor models; simple and advanced current mirrors; single-ended amplifiers; differential amplifiers; operational amplifiers; frequency response; feedback theory; stability analysis; circuit nonidealities and noise; output stages; analog filters. CAD tools for circuit analysis and design.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE302": {
         "name": "Introduction to Electrical Engineering",
         "description": "The scope and nature of professional activities of electrical engineers, including problem-solving techniques; analysis and design methods; engineering professional ethics; analysis of analog resistive circuits, including Thevenin/Norton equivalents, mesh analysis, and nodal analysis; and operational amplifiers (DC response).",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE306": {
         "name": "Introduction to Computing",
         "description": "Motivated, bottom-up introduction to computing; bits and operations on bits; number formats; arithmetic and logic operations; digital logic; the Von Neumann model of processing, including memory, arithmetic logic unit, registers, and instruction decoding and execution; introduction to structured programming and debugging; machine and assembly language programming; the structure of an assembler; physical input/output through device registers; subroutine call/return; trap instruction; stacks and applications of stacks.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE462L": {
         "name": "Power Electronics Laboratory",
         "description": "Analysis, design, and operation of power electronic circuits; power conversion from AC to DC, DC to DC, and DC to AC; rectifiers, inverters, and pulse width modulated motor drives. Laboratory work focuses on the use of energy from renewable sources such as photovoltaics and wind.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE471C": {
         "name": "Wireless Communications Laboratory",
         "description": "The fundamentals of wireless communication from a digital signal processing perspective; linear modulation, demodulation, and orthogonal frequency division multiplexing; synchronization, channel estimation, and equalization; communication in fading channels; and wireless standards.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE374K": {
         "name": "Biomedical Electronics Instrument Design",
         "description": "Application of electrical engineering principles in the design of electronic instrumentation at the circuit-board level for the measurement of pressure, temperature, flow, and impedance.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE371R": {
         "name": "Digital Image and Video Processing",
         "description": "Digital image acquisition, processing, and analysis; algebraic and geometric image transformations; two-dimensional Fourier analysis; image filtering and coding.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE361Q": {
         "name": "Requirements Engineering",
         "description": "Methods and technology for acquiring, representing, documenting, verifying, validating, and maintaining requirements; text-based, graphic-based, and computational requirements model representations; requirements analysis to synthesize and resolve conflicts among disparate stakeholder viewpoints; requirements traceability and evolution, and change management.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE360C": {
         "name": "Algorithms",
         "description": "Advanced problem solving methods; algorithm design principles; complexity analysis; study of the nature, impact, and handling of intractability; study of common algorithmic classes and their applications.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE360P": {
         "name": "Concurrent and Distributed Systems",
         "description": "Multithreaded programming, semaphores, monitors, lock-free synchronization, resource allocation; client/server distributed systems programming, logical clocks, global snapshots and property evaluation, leader election, consensus, protection, and transactions.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE361C": {
         "name": "Multicore Computing",
         "description": "Theoretical and practical aspects of designing multicore software systems; programming constructs for concurrent computation; openMP; sequential consistency; linearizability; lock-based synchronization; lock-free synchronization; wait-free synchronization; consensus number; software transactional",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE362S": {
         "name": "Development of Solar-Powered Vehicle",
         "description": "Analysis, design, and construction of a solar-powered car for national competitions involving other universities. Study of electrical, mechanical, and aerodynamic systems.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE363N": {
         "name": "Engineering Acoustics",
         "description": "Principles of acoustics, with applications drawn from audio engineering, biomedical ultrasound, industrial acoustics, noise control, room acoustics, and underwater sound.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE362Q": {
         "name": "Power Quality and Harmonics",
         "description": "Introduction to and analysis of power quality and harmonic phenomena in electric power systems. Includes characteristics and definitions, voltage sags, electrical transients, harmonics, mitigation techniques, and standards of power quality and harmonics.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE339": {
         "name": "Solid-State Electronic Devices",
         "description": "Semiconductor materials; atomic orbitals to energy band structure of semiconductors; charge carrier transport, electron-hole generation and recombination; p-n junctions and Schottky barriers; bipolar and filed-effect transistors; and introduction to optoelectronic devices.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE325": {
         "name": "Electromagnetic Engineering",
         "description": "Electrostatics and magnetostatics; properties of conductive, dielectric, and magnetic materials; solutions of Maxwell's equations; uniform plane wave applications; frequency- and time-domain analyses of transmission lines.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE351K": {
         "name": "Probability and Random Processes",
         "description": "Probability, random variables, statistics, and random processes, including counting, independence, conditioning, expectation, density functions, distributions, law of large numbers, central limit theorem, confidence intervals, hypothesis testing, statistical estimation, stationary processes, Markov chains, and ergodicity.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE333T": {
         "name": "Engineering Communication",
         "description": "Advanced engineering communication skills, with emphasis on technical documents, oral reports, and graphics; collaborative work involving online communication and research.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE325K": {
         "name": "Antennas and Wireless Propagation",
         "description": "Solutions of time-varying Maxwell's equations with applications to antennas and wireless propagation; antenna theory and design, array synthesis; electromagnetic wave propagation, scattering, and diffraction; numerical methods for solving Maxwell's equations.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE316": {
         "name": "Digital Logic Design",
         "description": "Boolean algebra; analysis and design of combinational and sequential logic circuits; state machine design and state tables and graphs; simulation of combinational and sequential circuits; applications to computer design; and introduction to hardware description languages (HDLs) and field-programmable gate arrays (FPGAs).",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE360T": {
         "name": "Software Testing",
         "description": "Basic concepts and techniques used in testing software and finding bugs. Includes process, unit, integration, and system testing; manual and automatic techniques for generation of test inputs and validation of test outputs; and coverage criteria. Focus on functional testing.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE461S": {
         "name": "Operating Systems",
         "description": "Introductory course on operating system design and implementation; the shell; process management and system calls; memory management; thread management, scheduling, synchronization and concurrency; file systems; input/output systems; virtual machines; networking and security.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE364": {
         "name": "Senior Design I",
         "description": "The first half of senior design",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE319K": {
         "name": "Introduction to Embedded Systems",
         "description": "Embedded systems; machine language execution; assembly and C language programming; local variables and subroutines; input/output synchronization; analog to digital conversion and digital to analog conversion; debugging; and interrupts.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "M408C": {
         "name": "DIFFERENTIAL AND INTEGRAL CALCULUS",
         "description": "M408C is our standard first-year calculus course. It is directed at students in the natural and social sciences and at engineering students. The emphasis in this course is on problem solving, not on the presentation of theoretical considerations. While the course necessarily includes some discussion of theoretical notions, its primary objective is not the production of theorem-provers. The syllabus for M408C includes most of the elementary topics in the theory of real- valued functions of a real variable: limits, continuity, derivatives, maxima and minima, integration, area under a curve, volumes of revolution, trigonometric, logarithmic and exponential functions and techniques of integration.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "M408D": {
         "name": "SEQUENCES, SERIES, AND  MULTIVARIABLE CALCULUS",
         "description": "M408D is our standard first-year calculus sequence. It is directed at students in the natural and social sciences and at engineering students. The emphasis in this course is on problem solving, not on the presentation of theoretical considerations. While the course necessarily includes some discussion of theoretical notions, it s primary objective is not the production of theorem-provers. M408D contains a treatment of infinite series, and an introduction to vectors and vector calculus in 2-space and 3-space, including parametric equations, partial derivatives, gradients and multiple integrals.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "M408L": {
         "name": "Integral Calculus",
         "description": "Introduction to the theory and applications of integral calculus of one variable; topics include integration, the fundamental theorem of calculus, transcendental functions, sequences and infinite series.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "M408M": {
         "name": "Multivariable Calculus",
         "description": "Introduction to the theory and applications of integral calculus of several variables; topics include parametric equations, polar co-ordinates, vectors, vector calculus, functions of several variabls, partial derivatives, gradients, and multiple integrals. ",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "M427J": {
         "name": "Differential Equations with Linear Algebra",
         "description": "M427J is a basic course in ordinary and partial differential equations, emphasizing the connection with linear algebra and systems of equation.  Other subject matter will include: introduction to vector spaces, linear operators and eigenvalues, systems of linear differential equations, introduction to partial differential equations and Fourier series.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "M427L": {
         "name": "ADVANCED CALCULUS FOR APPLICATIONS II",
         "description": "Topics include matrices, elements of vector analysis and calculus functions of several variables, including gradient, divergence, and curl of a vector field, multiple integrals and chain rules, length and area, line and surface integrals, Greens theorem in the plane and space. If time permits, topics in complex analysis may be included.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "M340L": {
         "name": "MATRICES AND MATRIX CALCULATIONS",
         "description": "The goal of M340L is to present the many uses of matrices and the many techniques and concepts needed in such uses. The emphasis is on concrete concepts  and understanding and using techniques, rather than on learning proofs and abstractions. The course is designed for applications-oriented students such as those in the natural and social sciences, engineering, and business. Topics might include matrix operations, systems of linear equations, introductory vector-space concepts (e.g., linear dependence and independence, basis, dimension), determinants, introductory concepts of eigensystems, introductory linear programming, and least square problems.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "M325K": {
         "name": "DISCRETE MATHEMATICS",
         "description": "This is a first course that emphasizes understanding and creating proofs. Therefore, it provides a transition from the problem-solving approach of calculus to the entirely rigorous approach of advanced courses such as M365C or M373K. The number of topics required for coverage has been kept modest so as to allow adequate time for students to develop theorem-proving skills.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "M328K": {
         "name": "INTRODUCTION TO NUMBER THEORY",
         "description": "This is a first course that emphasizes understanding and creating proofs; therefore, it must provide a transition from the problem-solving approach of calculus to the entirely rigorous approach of advanced courses such as M365C or M373K. The number of topics required for coverage has been kept modest so as to allow instructors adequate time to concentrate on developing the students theorem-proving skills. ",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "PHY303K": {
         "name": "ENGINEERING PHYSICS I",
         "description": "A general survey of physics; primarily laws of motion, heat, and wave phenomena.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "PHY303L": {
         "name": "ENGINEERING PHYSICS II",
         "description": "Electricity and magnetism, optics, and atomic phenomena.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE341": {
         "name": "Electric Drives and Machines",
         "description": "Fundamentals of electric machines. Electromechanical energy conversion; magnetic circuits, transformers, and energy conversion devices; and an introduction to power electronics. Motor drive fundamentals and applications.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE369": {
         "name": "Power Systems Engineering",
         "description": "Three-phase power systems, system component models, symmetrical components, and admittance and impedance matrices. Formulation and analysis of loadflow, short circuit, and stability for electric grids. Economic operation.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE368L": {
         "name": "Power Systems Apparatus and Laboratory",
         "description": "Fundamentals of power systems emphasized through laboratory experiments; complex power, three-phase circuits, per-unit system, transformers, synchronous machines, transmission line models, steady-state analysis, induction machines, capacitor banks, protective relaying, surge arrestors, and instruments.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE362K": {
         "name": "Introduction to Automatic Control",
         "description": "Analysis of linear automatic control systems in time and frequency domains; stability analysis; state variable analysis of continuous-time and discrete-time systems; root locus; Nyquist diagrams; Bode plots; sensitivity; lead and lag compensation.",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE339S": {
         "name": "Solar Energy Conversion Devices",
         "description": "An investigation of basic principles of photovoltaic devices which convert light into charger carriers (electrons and holes).",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     },
     "EE362R": {
         "name": "Renewable Energy and Power Systems",
         "description": "Introduction to renewable energy sources and their integration into power systems. Includes wind energy: resources, turbines, blades, rotor power characteristics, generators, active and reactive power, variability, and voltage regulation",
         "rating": "1500",
         "rd": "200",
-        "vol": "0.03"
+        "vol": "0.06"
     }
 }
