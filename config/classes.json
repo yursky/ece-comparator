@@ -397,5 +397,12 @@
         "rating": "1500",
         "rd": "200",
         "vol": "0.06"
+    },
+    "EE351M": {
+        "name": "Digital Signal Processing",
+        "description": "Sampling, aliasing, truncation effects; discrete and fast Fourier transform methods; convolution and deconvolution; finite and infinite impulse response filter design methods; Wiener, Kalman, noncausal, linear phase, median, and prediction filters; and spectral estimation.",
+        "rating": "1500",
+        "rd": "200",
+        "vol": "0.06"
     }
 }
