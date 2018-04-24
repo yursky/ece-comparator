@@ -19,7 +19,9 @@ block content
           .form-group
             input(type='hidden', name='loser', id='loser', value='' + class2)
           .form-group
-            h2 #{class1}
+            h2 
+              i.fas.fa-angle-right
+              | #{class1}
             button.btn.btn-default(type='submit')
                 | This class is harder. 
       .col-sm-6
@@ -30,6 +32,8 @@ block content
           .form-group
             input(type='hidden', name='loser', id='loser', value='' + class1)
           .form-group
-            h2 #{class2}
+            h2 
+              i.fas.fa-angle-right
+              | #{class2}
             button.btn.btn-default(type='submit')
                 | Naw this class is harder. 

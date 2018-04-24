@@ -9,8 +9,8 @@ $brand-info: #5bc0dd;
 
 // Typography
 // -------------------------
-
-$headings-font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Arial, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+$headings-font-family: "Noto Sans", "Roboto", Arial, sans-serif;
 
 // Buttons
 // -------------------------
