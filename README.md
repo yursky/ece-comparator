@@ -3,7 +3,6 @@
 # ece-comparator
 > Source code for Comparator, a class rating system.
 
-[![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/yursky/ece-comparator)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/yursky/ece-comparator)
 
 <br>
